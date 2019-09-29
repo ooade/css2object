@@ -1,0 +1,41 @@
+{
+	"name": "css2object",
+	"version": "0.1.0",
+	"description": "Converts css to object/json (fun thang!)",
+	"main": "build/index.js",
+	"module": "build/index.es.js",
+	"types": "build/index.d.ts",
+	"umd": "build/index.umd.js",
+	"scripts": {
+		"test": "jest",
+		"start:build": "tsc -w",
+		"start:run": "nodemon build",
+		"start": "concurrently npm:start:*",
+		"build": "rollup -c rollup.config.js",
+		"prepublish": "npm test && npm run build"
+	},
+	"files": [
+		"build",
+		"readme.md"
+	],
+	"keywords": [
+		"css2json",
+		"css2object",
+		"css",
+		"object",
+		"json"
+	],
+	"author": "Ademola Adegbuyi <ooade96@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/preset-env": "^7.6.2",
+		"@types/jest": "^24.0.18",
+		"@types/node": "^12.7.5",
+		"concurrently": "^4.1.2",
+		"jest": "^24.9.0",
+		"nodemon": "^1.19.1",
+		"rollup": "^1.22.0",
+		"rollup-plugin-babel": "^4.3.3",
+		"rollup-plugin-terser": "^5.1.2"
+	}
+}

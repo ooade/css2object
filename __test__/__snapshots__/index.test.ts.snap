@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CSS2Object renders correctly 1`] = `
+Object {
+  "#navigation a": Object {
+    "font-weight": "bold",
+    "text-decoration": "none !important",
+  },
+  "body": Object {
+    "color": "#000",
+    "font-family": "tahoma, arial, sans-serif",
+    "margin": "0",
+    "padding": "3em 6em",
+  },
+  "code": Object {
+    "color": "#418a8a",
+    "font-family": "courier, monospace",
+    "font-size": "80%",
+  },
+  "h1": Object {
+    "font-size": "2.5em",
+  },
+  "h1:before": Object {
+    "content": "'",
+  },
+  "h2": Object {
+    "font-size": "1.7em",
+  },
+  "h2:before": Object {
+    "content": "'",
+  },
+}
+`;
