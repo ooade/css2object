@@ -30,7 +30,7 @@ const cssData = `
 `
 const css2json = new Css2Object(cssData);
 css2json.read();
-console.log(css2json.cssRecord));
+console.log(css2json.cssRecord);
 ```
 
 ## LICENSE
