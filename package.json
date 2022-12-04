@@ -32,7 +32,7 @@
 		"@types/jest": "^24.0.18",
 		"@types/node": "^12.7.5",
 		"concurrently": "^4.1.2",
-		"jest": "^24.9.0",
+		"jest": "^29.3.1",
 		"nodemon": "^1.19.1",
 		"rollup": "^1.22.0",
 		"rollup-plugin-babel": "^4.3.3",
